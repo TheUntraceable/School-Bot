@@ -10,21 +10,12 @@ You can install the bot by running
 ```
 git clone https://github.com/TheUntraceable/School-Bot.git
 ```
-After this you should go to the `config.json` and fill in the with your information.
+After this you should go to the `config.json` and fill in the with your information or use `setup.py`.
 Example:
 ```python
 {
-    "classes" : ["maths","english","science","computer science"], #What classes you have
-    "timetable" : {
-        "maths" : "9 00", # What time Maths starts
-        "break 1" : "10 00", # What time break 1 starts, can be a lesson
-        "english" : "10 20", # What time English starts
-        "science" : "11 20", # What time Science starts
-        "computer science" : "12 20", # What time Computer Science starts
-        "lunch" : "13 20" # What time Lunch is, can be a lesson
-        # All lesson names can be customised
-    },
-
+    "subjects" : ["maths","english","science","computer science"], #What classes you have
+    
     "classnames" : [
         {
         "subject" : "maths", 
