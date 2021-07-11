@@ -14,17 +14,38 @@ After this you should go to the `config.json` and fill in the with your informat
 Example:
 ```python
 {
-    "classes" : ["maths","english","science","computer science"] #What classes you have
+    "classes" : ["maths","english","science","computer science"], #What classes you have
     "timetable" : {
-        "maths" : "9 00" # What time Maths starts
-        "break 1" : "10 00" # What time break 1 starts, can be a lesson
-        "english" : "10 20" # What time English starts
-        "science" : "11 20" # What time Science starts
-        "computer science" : "12 20" # What time Computer Science starts
-        "lunch" : "12 20" # What time Lunch is, can be a lesson
+        "maths" : "9 00", # What time Maths starts
+        "break 1" : "10 00", # What time break 1 starts, can be a lesson
+        "english" : "10 20", # What time English starts
+        "science" : "11 20", # What time Science starts
+        "computer science" : "12 20", # What time Computer Science starts
+        "lunch" : "13 20" # What time Lunch is, can be a lesson
         # All lesson names can be customised
-    }
+    },
+
+    "classnames" : [
+        {
+        "subject" : "maths", 
+        "class name" : "7X",
+        "time" : "9 00"
+        }, {
+            "subject" : "english",
+            "class name" : "7Y",
+            "time" : "10 20"
+        }, {
+            "subject" : "science",
+            "class name" : "8X",
+            "time" : "11 20"
+        }, {
+            "subject" : "computer science",
+            "class name" : "7X",
+            "time" : "12 : 20"
+        }
+    ]
 }
+
 ```
 After configurating the bot to your likings, run `main.py`.
 # I want to contribute! How?
