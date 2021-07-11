@@ -47,9 +47,8 @@ If you really want to contribute on this joke of a bot, go ahead, I'm not gonna 
 ---
 # License
 I am not a lawyer but when using my software you must:
-1. Not distribute it as your own software
-2. Sell it for any profit
-
+1. Not distribute it as your own software.
+2. Not sell it for any profit.
 Pretty sure that's it.
 ```Python
 '''
